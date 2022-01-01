@@ -1,0 +1,13 @@
+参考文档 https://minitorch.github.io/install.html
+
+0. fork 官网 module-0
+1. clone 项目
+2. 安装依赖
+    python -m pip install -r requirements.txt
+    python -m pip install -r requirements.extra.txt
+    python -m pip install -Ue .
+
+    除此以外,提前先安装好 torch,后面有用到torch的库做一些其他测试
+
+3. 测试环境是否安装成功
+    import minitorch
