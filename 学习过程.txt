@@ -11,3 +11,5 @@
 
 3. 测试环境是否安装成功
     import minitorch
+
+4. 提交代码,在github的actions可以看提交结果
