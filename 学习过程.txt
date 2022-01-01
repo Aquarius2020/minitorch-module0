@@ -12,4 +12,9 @@
 3. 测试环境是否安装成功
     import minitorch
 
-4. 提交代码,在github的actions可以看提交结果
+4. 跑单测
+    运行一个模块 pytest -m task0_0
+    只运行单个文件 pytest tests/test_operators.py
+
+
+5. 提交代码,在github的actions可以看提交结果
